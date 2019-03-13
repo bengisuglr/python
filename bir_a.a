@@ -1,0 +1,18 @@
+# lets work with real numbers 1.0,
+i = 1
+j = 2
+k = 3
+x = k / j
+print("x is ", x)
+i = x / 3
+print("i is ", i)
+x = int( k / j)
+print("x converted to intreger is ", x)
+x = int(1.6) # supoosed to be rounded to 2, has whole part 1.
+print(" x from 1.6 is", x)
+x = int( -1.6) # suppoed to be rounded to -2, has whole part -1.
+print("x from -1.6 is", x)
+x = float(100)
+print("x converted to float is", x)
+zero = 0
+# x = 1 / zero # divide by zero crashes this program
